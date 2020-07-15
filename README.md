@@ -1,7 +1,8 @@
-Features:
+# Restaurant Management System Laravel
+##### Features:
 
-1 | Cost Management
-2 | Table Service
-3 | Ordering
-4 | Employee management
-5 | Social media and Marketing 
+* Cost Management
+* Table Service
+* Ordering
+* Employee management
+* Social media and Marketing 
