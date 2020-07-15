@@ -1,0 +1,56 @@
+------------- Order ----------------
+
+id
+customer name
+order accept employee (id-> users -> role-> employee)
+table_uses (id-> table-service) [optional for parcel]
+total_food (count-> order_food-> total per customer)
+total_price (count-> order_food -> price)
+created_at
+updated_at	
+
+------------- Oder Food --------------
+
+id
+customer id (id-> users -> role-> customer)
+food id (id->food)
+
+
+------------Daily Report------------------
+
+id
+date
+total_food_items
+total_money_cash
+total_customer_serve
+closeing
+
+------------Food ------------------
+
+id
+food_name
+quantity
+price
+created_at
+updated_at	
+
+------------Table Service------------------
+
+id
+table_name
+total_customer
+created_at
+updated_at
+
+------------Users ------------------
+	
+id
+name
+username
+email
+password
+role
+profile_pic
+created_at
+updated_at
+
